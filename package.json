@@ -1,0 +1,29 @@
+{
+  "name": "mintyton",
+  "version": "1.0.0",
+  "description": "Example of minting NFT on TON",
+  "main": "src/app.ts",
+  "repository": "https://github.com/coalus/MintyTON.git",
+  "author": "Coalus <nomail@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "blueprint run",
+    "build": "blueprint build",
+    "startApp": "tsc --skipLibCheck && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@ton-api/client": "^0.2.0",
+    "@ton/blueprint": "^0.25.0",
+    "@ton/core": "^0.59.0",
+    "@ton/ton": "^15.1.0",
+    "dotenv": "^16.4.5",
+    "ton": "^13.9.0",
+    "ton-crypto": "^3.2.0",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  }
+}
